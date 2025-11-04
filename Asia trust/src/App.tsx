@@ -361,7 +361,7 @@ export default function AsiaTrustWebsite() {
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">Message</label>
-                  <textarea rows="4" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent" placeholder="Tell us about your needs..."></textarea>
+                  <textarea  ="4" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent" placeholder="Tell us about your needs..."></textarea>
                 </div>
                 <button onClick={(e) => { e.preventDefault(); alert('Thank you for your inquiry! We will contact you soon.'); }} className="w-full bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition font-semibold">
                   Submit Inquiry
